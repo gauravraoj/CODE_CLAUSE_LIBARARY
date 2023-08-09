@@ -5,7 +5,7 @@ import java.util.List;
 public class LibraryDAO {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/library";
     private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "your_password";
+    private static final String DB_PASSWORD = "your_password";//add your password
 
     public List<Book> getAllBooks() {
         List<Book> books = new ArrayList<>();
